@@ -13,7 +13,7 @@
 }
 
 html{
-    font-size:10px;
+    font-size:11.5px;
 }
 
 body{
@@ -39,6 +39,32 @@ a{
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--text-color);
+}
+
+.title{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.name_preTitle{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.name_title{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    margin: 0.8rem 0;
+}
+
+.name_subtitle{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
 }
 
 /*layouts*/
@@ -67,6 +93,12 @@ a{
 .profile{  /*this will take up the middle space between two columns for pic and bio*/
     grid-column: 1 / -1;  /* start at first column, then take up space of other columns*/
     margin: 2rem;
+}
+
+.group-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem
 }
 
 /* profile layout for image and text */
@@ -117,4 +149,23 @@ a{
     .profile_container {
         flex-direction: column;
     }
+}
+
+/*Skills*/
+.skill_list{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+/* EDUCATION section */
+.edu_name{
+    margin-top: 2rem;
+
+}
+
+/*Experience Section*/
+.exp_name{
+    margin-top: 2rem;
+
 }
