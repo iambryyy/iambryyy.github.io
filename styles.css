@@ -42,7 +42,7 @@ a{
 }
 
 .title{
-    color: var(--primary-color);
+    color: tan;
     font-weight: 700;
     font-size: 2rem;
     text-transform: uppercase;
@@ -168,4 +168,21 @@ a{
 .exp_name{
     margin-top: 2rem;
 
+}
+
+/*contact me*/
+.socials{
+    margin-top: 2rem;
+}
+.socials{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--text-color);
+}
+.socials:hover{
+    color: var(--primary-color);
 }
